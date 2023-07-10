@@ -27,7 +27,7 @@ impl Player {
     
     fn render(&mut self, ctx: &mut BTerm) {
         ctx.set(
-            self.x,
+            0,
             self.y,
             YELLOW,
             BLACK,

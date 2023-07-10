@@ -10,6 +10,9 @@ or \
 `git clone https://gitee.com/bonington/Flappy.git` on Gitee (Faster in Chinese Mainland). \
 You may need to install `git` and `rustup` tools first.
 
+## FAQ
+1. If you come across failure while building, you may need to run `rustup default nightly`, since the program is build by `rustc 1.73.0-nightly`. By the time I built the program, all `rustc 1.70.0`,`rustc 1.71.0-beta.6` and `rustc 1.73.0-nightly` versions are available.
+
 ## LICENSE
 Flappy uses `Apache License Version 2.0`.
 
